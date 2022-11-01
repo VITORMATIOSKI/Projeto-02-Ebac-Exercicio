@@ -1,0 +1,96 @@
+*{
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+     background-color:#94a3b8 ;
+     color: #e5e7eb;
+     font-family: 'Roboto', sans-serif;
+}
+
+header {
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     margin: 2rem 0
+}
+
+header h1{
+     text-transform: uppercase;
+     font-size: 2rem;
+     font-weight: bold;
+}
+
+form{
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     flex-direction: column;
+}
+
+form label{
+     font-size: 1rem;
+     text-transform: uppercase;
+     margin: 1rem 0;
+     font-weight: bold;
+     color: #111827;
+}
+
+form input{
+     width: 380px;
+     height: 40px;
+     border: none;
+     border: 1px solid #111827;
+     border-radius: 8px;
+}
+
+form input:focus{
+     outline: none;
+     border: 3px solid #166534;
+}
+
+form input::placeholder{
+     padding-left: 1rem;
+     font-size: 1rem;
+     font-weight: 400;
+     color: #e5e7eb;
+}
+
+form button {
+     width: 150px;
+     height: 50px;
+     margin: 2rem 0 ;
+     background-color: #111827;
+     font-size: 1.5rem;
+     text-transform: uppercase;
+     border: none;
+     border-radius: 8px;
+     cursor: pointer;
+}
+
+form button:hover{
+     background-color:#155e75 ;
+}
+
+table{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-direction: column;
+     width: 100%;
+}
+
+table  th{
+     padding: 0 4rem;
+     font-size: 2rem;
+     text-transform: uppercase;
+     font-weight: 400;
+     line-height: 1.6;
+
+}
+
+table td {
+     padding: 1rem 6rem;
+     font-size: 1.5rem ;
+     text-transform: uppercase;
+     border:2px solid #111827 ;
+}
